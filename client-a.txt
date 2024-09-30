@@ -1,4 +1,22 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Set an int variable named number_randomvar to a randoimized number between the digits of "1" and"10"
+Set an int variable named number_uservar to a value of "0"
+Set an int variable named limit_tryvar to a value of "3"
+Set an int variable named on_tryvar to a valur of "0"
 
+While on_tryvar<limit_tryvar
+        (
+
+          Onscreen prompt to enter number
+          store the input into the variable "number_uservar"
+                    If
+                        number_uservar==number_randvar print string "You have guessed correctly!!"
+                    Else
+                        print string "Almost there! Try again and better luck next time."
+                on_tryvar++
+                              )
+  If on_tryvar==limit_tryvar
+                      print string "You've run out of guess attemps, here is the correct answer:
+                      print number_randomvar
